@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    display:flex;
+    align-items:center;
+    justify-content: center; /*These three property is sued for align element in center*/
+   
+width:100%;
+height: 100%;
+background-color:rgba(189, 225, 249, 0.329);/*This property is used to give colour to yur background*/
+}
+#bubble-box-main{
+    overflow:hidden;/*It is used to hidden panel overflow*/
+    height: 90%;
+    width:60%;
+    background-color:#fff;
+    border-radius:25px;
+    overflow-y: hidden;
+    
+}
+#bubble-box-upper-part1{
+    padding:0 20%;
+    display:flex;
+    color:#fff;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+ height:70px;
+    background-color:rgb(28, 30, 66);
+}
+.bb2{
+padding:10px 20px;
+background-color:#fff;
+border-radius:50%;
+color:#031b3f;
+font-weight:600;
+font-size:1.5vw;
+
+}
+#bubble-boxes{
+width:10%;
+display:flex;
+/*background-color:blue;*/
+align-items:center;
+gap:20px;
+
+
+
+}
+h1{
+    text-align:center;
+    color:#fff;
+    text-shadow:2px 2px 3px rgb(148, 179, 235);
+    background-color:#000000;
+    font-size:2.5vw;
+}
+#bubble-boxes h2{
+    font-weight:500;
+    font-size:18px;
+}
+#bubble-box-bottom-part-2 {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;/*This property:initial-value: ; allows you to move your lement in next line */
+    gap:10px;
+    padding:20px;
+    width: 100%;
+    height: calc(100% - 100px); /* Add spaces around the minus sign */
+    background-color: #000;
+}
+.bubble{
+    display:flex;
+    align-items:center;
+    justify-content:Center;
+width:40px;
+height:40px;
+background-color:rgb(42, 42, 141);
+color:#fff;/*This property change your text color*/
+border-radius:50%;/*This property make your corners and shap round*/
+font-weight:400;/*This property gives weight to your font*/
+}
+.bubble:hover{
+    background-color:rgba(29, 34, 100, 0.885);
+ cursor:pointer;/*It change your default cursor to pointer*/
+}
